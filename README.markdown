@@ -16,27 +16,17 @@ This script assembles a CSV list that conforms to these rules.
 
 # Prerequisites #
 
-The script is written in Perl, and is intended for use on OS X. While I'm sure it'll work on other operating systems, I haven't tested it. It might need some slight modifications. You will also need the [Cwd library](http://search.cpan.org/~smueller/PathTools-3.33/Cwd.pm).
+The script is written in PHP, and can be used on any basic web server. Just make sure you can `chmod 775` the directory containing the script.
 
-If you want to be able to double-click the script in Finder, you might need to do the following:
-
-1. Right-click the script (or control-click it)
-2. Select **Get Info**
-3. Under the Permissions section, make sure to click **Execute** next to Owner, Group, and Everyone.
-
-Otherwise, you can just run the script from Terminal.
-
-As input, the script takes a CSV file. At minimum, it assumes you have a column with the words "Zip Code." If you want to work with multiple labels for items weighing more than a pound, you need to have a column with the word "Pounds." 
+As input, the PHP script takes a CSV file. At minimum, it assumes you have a column with the words "Zip Code." If you want to work with multiple labels for items weighing more than a pound, you need to have a column with the word "Pounds." 
 
 
 # Using the script #
 
-The script relies on a file called _adc\_listings.txt_, which lists all the ADC numbers in the same ranking as the USPS (as of 04/17/11).
+The PHP code relies on a file on the server called _adc\_listings.txt_, which lists all the ADC numbers in the same ranking as the USPS (as of 04/17/11).
 
-Run _adc\_zipcode\_sorter.command_. It'll ask for a CSV file. Drag a CSV file into the script, and hit enter.
+After you upload your CSV file, you'll get a link to download the output file, which is named _adc\_sorted\_file.csv_. This CSV has a new row added to the end of the called SortOrder. When importing this CSV file into a database, spreadsheet, or label making program, you can choose to sort on the SortOrder column, and get an ADC-arranged list of mailing addresses.
 
-You're done! The output file is named _adc\_sorted\_file.csv_. This CSV has a new row added to the end of the called SortOrder. When importing this CSV file into a database, spreadsheet, or label making program, you can choose to sort on the SortOrder column, and get an ADC-arranged list of mailing addresses.
+# Testing #
 
-# Test CSV #
-
-A dummy csv, _test\_sheet.csv_, is proved for your fun and entertainment in trying out the script. It contains data that's missing, data that's hyphenated, and  data that falls within an ADC range.
+A dummy file, _test\_sheet.csv_, is proved for your fun and entertainment in trying out the script. It contains data that's missing, data that's hyphenated, data tha's misspelled, and data that falls within an ADC range.
