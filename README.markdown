@@ -16,7 +16,7 @@ This script assembles a CSV list that conforms to these rules.
 
 # Prerequisites #
 
-The script is written in PHP, and can be used on any basic web server. Just make sure you can `chmod 775` the directory containing the script.
+The script is written in PHP, and can be used on any basic web server. Just make sure the script is executable with `chmod`.
 
 As input, the PHP script takes a CSV file. At minimum, it assumes you have a column with the words "Zip Code." If you want to work with multiple labels for items weighing more than a pound, you need to have a column with the word "Pounds." 
 
