@@ -1,6 +1,6 @@
 # Introduction #
 
-The United States Postal Office (USPS) offers huge discounts to bulk mailers that organize their mail, prior to having it sent through a post office. This is often done by grouping bundles of letters by the first three digits of the zip code. These digits refer to the area distribution center (ADC) as defined by the USPS. The USPS has [their guidelines posted online](http://pe.usps.com/text/dmm300/L004.htm).
+The United States Postal Office (USPS) offers huge discounts to bulk mailers that organize their mail, prior to having it sent through a post office. This is often done by grouping bundles of letters by the first three digits of the zip code. These digits refer to the area distribution center (ADC) as defined by the USPS. The USPS has [their guidelines posted online](http://pe.usps.com/text/LabelingLists/L004.htm).
 
 Unfortunately, the arrangement of these ADC codes has no discernible pattern. There's no numerical or geographical sorting for any of the items.  For example, if I have mail to send to Long Island, NY, my grouping can be in any of the following slots:
 
