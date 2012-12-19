@@ -10,7 +10,7 @@ And if I'm sending mail to Springfield, MA, my grouping occurs between these slo
 
 > 010 - 017
 
-I work for a non-profit, and there was a need to sort the zip code information into the ADC arrangement, so that they could save on mailing costs. In addition, the USPS has rules that indicate if a package weighs a certain number of pounds, the equivalent number of labels must be added to the item. For example, if a package weighs three pounds, it needs three mailing labels.
+I volunteer for a non-profit, and there was a need to sort the zip code information into the ADC arrangement, so that they could save on mailing costs. In addition, the USPS has rules that indicate if a package weighs a certain number of pounds, the equivalent number of labels must be added to the item. For example, if a package weighs three pounds, it needs three mailing labels.
 
 This script assembles a CSV list that conforms to these rules.
 
@@ -29,4 +29,4 @@ After you upload your CSV file, you'll get a link to download the output file, w
 
 # Testing #
 
-A dummy file, _test\_sheet.csv_, is proved for your fun and entertainment in trying out the script. It contains data that's missing, data that's hyphenated, data tha's misspelled, and data that falls within an ADC range.
+A dummy file, _test\_sheet.csv_, is proved for your fun and entertainment in trying out the script. It contains data that's missing, data that's hyphenated, data that's misspelled, and data that falls within an ADC range.
